@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Bebas; /* Имя шрифта */
+    src: url(../../resources/fonts/BebasNeueBook.ttf); /* Путь к файлу со шрифтом */
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background: #54a3c9; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #1799c9 30%, #5d9bf2 70%, #76b9de); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #1799c9 30%, #5d9bf2 70%, #76b9de); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #1799c9 30%, #5d9bf2 70%, #76b9de); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, #1799c9 30%, #5d9bf2 70%, #76b9de); /* Standard syntax */
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+#logo {
+    font-family: Bebas;
+    font-size: 100px;
+    position: relative;
+    left: 100px;
+    top:25%;
+}
+
+
+#cash{
+    font-family: Bebas;
+    font-size: 35px;
+    position: relative;
+    left: 500px;
+    top: 15%;
+  
+}
+
+#cart {
+    position: absolute;  
+    left: 90%;
+    top: 150px;
+    bottom: 15%;
+
+}
+
+#cart img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+body{
+    margin: 0;
+    background-color: #94c4ff;
+}
+
+html { overflow-x: hidden; }
+
+		

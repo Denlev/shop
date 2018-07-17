@@ -1,0 +1,49 @@
+.productMain{
+    text-align: center;
+    position: relative;
+    left: 15%;
+    top: 100px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    font-family: Bebas;
+    color: #08086a;
+    width: 180px;
+    height: 210px;
+    border-radius: 20px;
+    background-color: #8099b5;
+    margin-left: 50px;
+}
+
+.productMain span{
+    position: relative;
+    font-size: 30px;
+}
+
+.productLogo{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+
+}
+
+.productMain a{
+    padding-top: 10px;
+}
+.button{
+    font-family: Bebas;
+    -moz-border-radius:  10px; /* Firefox */
+    -webkit-border-radius:  10px; /* Safari 4 */
+    border-radius:  10px; /* IE 9, Safari 5, Chrome */
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d66fa3), to(#259fff));
+    background: -moz-linear-gradient(#d66fa3, #259fff);
+    border:none;
+    width: 100px;
+    height:25px
+}
+
+.star{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: invert(0.3);
+}
+
